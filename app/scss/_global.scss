@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    &--pall {
+        padding: 0.625rem;
+    }
+}
+.flex {
+    display: flex;
+
+    &-ai-c {
+        align-items: center;
+    }
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-fd-c {
+        flex-direction: column;
+    }
+}
